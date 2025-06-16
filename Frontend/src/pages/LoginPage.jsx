@@ -67,7 +67,7 @@ const LoginPage = () => {
               <form onSubmit={handleLogin} className="space-y-6">
                 {/* EMAIL INPUT */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-900 flex items-center gap-2">
+                  <label className="text-sm font-semibold text-blackflex items-center gap-2">
                     <Mail className="size-4" />
                     Email Address
                   </label>
@@ -85,11 +85,11 @@ const LoginPage = () => {
 
                 {/* PASSWORD INPUT */}
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700 flex items-center gap-2">
+                  <label className="text-sm font-semibold text-black flex items-center gap-2">
                     <Lock className="size-4" />
                     Password
                   </label>
-                  <div className="relative">
+                  <div className="relative">Password
                     <input
                       type={showPassword ? "text" : "password"}
                       placeholder="Enter your password"
@@ -165,22 +165,7 @@ const LoginPage = () => {
                     Practice conversations, make friends, and improve your language skills together
                   </p>
                 </div>
-
-                {/* Feature highlights */}
-                <div className="mt-8 grid grid-cols-3 gap-4">
-                  <div className="text-center p-3 bg-white/50 rounded-xl backdrop-blur-sm">
-                    <div className="text-2xl font-bold text-blue-600">100+</div>
-                    <div className="text-xs text-gray-600">Languages</div>
-                  </div>
-                  <div className="text-center p-3 bg-white/50 rounded-xl backdrop-blur-sm">
-                    <div className="text-2xl font-bold text-purple-600">50K+</div>
-                    <div className="text-xs text-gray-600">Users</div>
-                  </div>
-                  <div className="text-center p-3 bg-white/50 rounded-xl backdrop-blur-sm">
-                    <div className="text-2xl font-bold text-green-600">24/7</div>
-                    <div className="text-xs text-gray-600">Support</div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
