@@ -6,8 +6,8 @@ class StarBackground {
         
         // Configuration options
         this.options = {
-            starCount: options.starCount || 200,
-            starSpeed: options.starSpeed || 0.5,
+            starCount: options.starCount || 500,
+            starSpeed: options.starSpeed || 1,
             starSize: options.starSize || 2,
             twinkleSpeed: options.twinkleSpeed || 0.02,
             shootingStarChance: options.shootingStarChance || 0.003,
